@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lampada</title>
+        <script>
+            function ligarlampada() {
+
+                document.getElementById("lampada").
+                src = "lampada-acesa.png"; //
+            }
+
+            function desligarlampada() {
+                document.getElementById("lampada").
+                src = "lampada-apagada.png"; //
+            }
+        </script>
+    </head>
+    <body>
+        <h1>TME Educatio</h1>
+            <h2>Mozambique</h2>
+            <img id="lampada" src="lampada-apagada.png" alt="lampada-apagada" style="width:200px;heigth:200px;"><br><br>
+            <button onclick="ligarlampada()">Ligar</button>
+            <button onclick="desligarlampada()">Desligar</button>
+    </body>
+    <footer>
+        <h5>@Salomao de Jesus</h5>
+    </footer>
+</html>
